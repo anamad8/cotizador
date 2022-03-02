@@ -1,0 +1,35 @@
+.main{
+
+    
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.buscador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    
+}
+
+.buscador input{
+    padding: 2px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.buscador button{
+    background: linear-gradient(90deg, rgba(245,78,162,1) 0%, rgba(255,118,118,1) 100%);
+    color: #FFFFFF;
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 10px;
+    border: none;
+}
+

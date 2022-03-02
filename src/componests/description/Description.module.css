@@ -1,0 +1,114 @@
+.encavezado{
+    display: flex;
+    justify-content: space-between;
+}
+.encavezado h2{
+    margin: 1em;
+}
+
+.encavezado a{
+    margin: 1em;
+}
+
+.encavezado img{
+    height: 50px;
+    margin-top: 1.5em;
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+
+/* Tabla */
+
+table, th, td {
+    border: 1px solid ;
+    text-align: center;
+}
+
+thead{
+    background:linear-gradient(90deg, rgba(255,118,118,1) 0%, rgba(245,78,162,1) 100%);
+}
+
+.alto{
+    height: 150px;
+}
+
+.btn{
+    background-color: rgba(245,78,162,1);
+    color:#ffffff  ;
+    padding: 5px;
+    border:none;
+    margin: 00.5em;
+    border-radius: 10px;
+    
+}
+
+/* carrito */
+.PDF{
+    border: none;
+    background-color: transparent;
+    
+}
+
+.cartDiv{
+    display: none;
+    min-width: 100px;
+    right: 0;
+    top: 50px;
+    position: absolute;
+    z-index: 999;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+    background-color: rgba(3, 3, 3, 0.9);
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.cartDiv2{
+    min-width: 100px;
+    right: 0;
+    top: 50px;
+    position: absolute;
+    z-index: 999;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+    background-color: rgba(3, 3, 3, 0.9);
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+
+.btnClose{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+    cursor: pointer;
+    font-family: "Alfa Slab One", cursive;
+    color: white;
+    background-color: transparent;
+    font-size: 1.2rem;
+
+}
+
+.btnPdf:link, .btnPdf:visited {
+    background-color: #ffffff;
+    color: black;
+    padding: 2px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+  }
+
